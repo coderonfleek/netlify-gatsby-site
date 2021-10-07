@@ -5,7 +5,6 @@ jobs:
     docker:
       - image: circleci/node:10.16.3
     steps:
-      steps:
       - checkout
       - restore_cache:
           keys:
